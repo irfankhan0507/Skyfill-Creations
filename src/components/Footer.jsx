@@ -1,4 +1,4 @@
-git commit -m "Initial commit - Skyfill Creations website"import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { company } from "../data/company.js";
 
@@ -101,6 +101,9 @@ export default function Footer() {
       <div className="section-inner mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-slate-500 md:flex-row md:items-center md:justify-between">
         <span>© 2026 Skyfill Agency. All rights reserved.</span>
         <span>Designed for premium growth.</span>
+      </div>
+      <div className="section-inner pb-2 pt-4 text-center text-xs uppercase tracking-[0.28em] text-slate-500">
+        Website Build by Dezacodex
       </div>
     </footer>
   );

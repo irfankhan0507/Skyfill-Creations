@@ -57,7 +57,7 @@ export default function About() {
             </div>
             <div className="mt-6 flex items-center justify-between text-sm text-slate-300">
               <span>Company intro</span>
-              <span className="text-brand">Est. 2016</span>
+              <span className="text-brand">Est. 2025</span>
             </div>
           </div>
         </FadeIn>

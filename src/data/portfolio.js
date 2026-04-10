@@ -2,70 +2,69 @@
 // The Portfolio section reads directly from this data module.
 export const portfolioProjects = [
   {
-    title: "Eira Skincare Launch",
-    category: "Branding + Performance",
+    title: "Ad Shoot Preparation",
+    category: "Ad Shoots",
     description:
-      "Skincare brand repositioned with a cinematic identity and conversion-led launch.",
-    results: "+210% qualified leads in 90 days",
-    tags: ["Branding", "Photography", "Paid Media"],
+      "Planning and setup for production-ready ad visuals with clear direction and brand consistency.",
+    results: "Production workflow optimized",
+    tags: ["Ad Shoots", "Pre-Production", "Direction"],
     accent: "from-sky-400/40 via-cyan-300/10 to-transparent",
     image:
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?auto=format&fit=crop&w=1400&q=80",
     featured: true,
   },
   {
-    title: "Arcline SaaS Growth",
-    category: "Design + Demand Gen",
+    title: "Ad Shoot Direction",
+    category: "Ad Shoots",
     description:
-      "B2B platform rebuilt with a conversion-first website and ABM creative.",
-    results: "4.8x pipeline velocity",
-    tags: ["Design", "Marketing Packages", "Analysis"],
+      "On-ground shoot supervision to capture clean, campaign-ready assets for digital promotions.",
+    results: "Stronger ad creative output",
+    tags: ["Ad Shoots", "Creative Direction", "Campaigns"],
     accent: "from-cyan-400/40 via-sky-300/10 to-transparent",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    title: "Noir Hotel Collection",
-    category: "Brand + Content",
+    title: "Editing Workflow",
+    category: "Editing",
     description:
-      "Hospitality group elevated through editorial visuals and story-driven campaigns.",
-    results: "+62% booking inquiries",
-    tags: ["Branding", "Photography", "Content"],
+      "Post-production process focused on clarity, pacing, and polished output for social and campaign content.",
+    results: "Faster content turnaround",
+    tags: ["Editing", "Post-Production", "Content Delivery"],
     accent: "from-slate-400/40 via-sky-400/10 to-transparent",
     image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    title: "Pulse Audio Network",
-    category: "Podcast Studio",
+    title: "Performance Tracking",
+    category: "Business Analysis",
     description:
-      "Podcast identity, production, and distribution for a thought-leadership network.",
-    results: "1.2M listener impressions",
-    tags: ["Podcasts", "Design", "Marketing"],
+      "Analyzing campaign performance trends and identifying patterns for data-backed improvements.",
+    results: "Clearer KPI visibility",
+    tags: ["Business Analysis", "Performance Metrics", "Reporting"],
     accent: "from-sky-500/40 via-cyan-400/10 to-transparent",
-    image:
-      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1200&q=80",
+    image: "/Founder%20details/work%20gallery%204.png",
   },
   {
-    title: "Vanta Consumer Tech",
-    category: "Go-to-Market",
+    title: "Editing and Delivery Suite",
+    category: "Editing",
     description:
-      "Omnichannel launch campaign for a flagship electronics line.",
-    results: "3.9x ROAS on launch",
-    tags: ["Branding", "Design", "Performance"],
+      "Final cut review and delivery setup for high-quality outputs across platforms.",
+    results: "Consistent final quality",
+    tags: ["Editing", "Quality Control", "Delivery"],
     accent: "from-cyan-500/40 via-sky-400/10 to-transparent",
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1400&q=80",
   },
   {
-    title: "Lumen Finance",
-    category: "Competitive Advantage",
+    title: "Competitor Intelligence Review",
+    category: "Business Analysis",
     description:
-      "Market and competitor analysis reshaped messaging for a premium fintech.",
-    results: "+44% conversion lift",
+      "Comparative research and positioning insights to improve messaging and campaign decision-making.",
+    results: "Sharper market positioning",
     tags: ["Business Analysis", "Competitor Analysis"],
     accent: "from-slate-500/40 via-cyan-400/10 to-transparent",
     image:
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
   },
 ];

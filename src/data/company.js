@@ -3,6 +3,9 @@ export const company = {
   shortName: "Skyfill",
   email: "skyfillcreationspg@gmail.com",
   phone: "9345370090",
+  instagramId: "skyfill_creations",
+  instagramUrl:
+    "https://www.instagram.com/skyfill_creations?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   address:
     "VSK Nagar, Pannimadi Road, Near PV Mahal, Coimbatore, Thudiyalur 641017",
   logo: "/logo.jpeg",

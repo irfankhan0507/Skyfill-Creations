@@ -1,12 +1,9 @@
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence, MotionConfig } from "framer-motion";
 import { useEffect } from "react";
-import Background from "./components/Background.jsx";
 import Navbar from "./components/Navbar.jsx";
-import VideoBackground from "./components/VideoBackground.jsx";
 import Footer from "./components/Footer.jsx";
 import PageShell from "./components/PageShell.jsx";
-import LeavesOverlay from "./components/LeavesOverlay.jsx";
 import Home from "./pages/Home.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
 import ServicesPage from "./pages/ServicesPage.jsx";
@@ -81,10 +78,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <MotionConfig reducedMotion="user">
-        <div className="relative isolate min-h-screen bg-ink text-white">
-          <VideoBackground />
-          <Background />
-          <LeavesOverlay />
+        <div className="relative isolate min-h-screen bg-black text-white">
           <Navbar />
           <main id="main" className="relative z-10">
             <AnimatedRoutes />
